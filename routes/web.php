@@ -31,7 +31,8 @@ Route::get('/home', [HomeController::class, 'index'])->name('home'); // root caÄ
 Route::get('/aboutus', [HomeController::class, 'aboutus'])->name('aboutus');
 
 
-
+//admin
+Route::get('/admin', [App\Http\Controllers\Admin\HomeController::class, 'index'])->name('adminhome');
 
 
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
