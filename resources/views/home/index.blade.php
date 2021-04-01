@@ -1,6 +1,6 @@
 @extends('layouts.home')
 
-@section('title', 'Laravel E_Ticaret ')
+@section('title', 'Laravel E_Ticaret giyhub ')
 @section('description ')
     E ticaret Güvencenin tek Adresi
 @endsection
